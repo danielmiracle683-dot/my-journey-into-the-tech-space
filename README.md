@@ -12,16 +12,15 @@ Welcome! I'm documenting my journey into programming, starting from scratch.
 
 
 ## Resources I'm Using
-- [Link to tutorial/course]
-- [Link to documentation]
+- freeCodeCamp.org
 
 ## Progress & Projects
 - **Week 1:** Setting up GitHub and learning the basics
-- [Add more as you complete things]
+
 
 ## Challenges & Wins
 - 🎯 **This Week's Win:** Successfully created my first GitHub repo!
-- 🤔 **Challenge:** [What's been hard?]
+- 🤔 **Challenge:** [Not knowing what to post and how to navigate the platform]
 
 ---
 
