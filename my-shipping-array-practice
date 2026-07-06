@@ -1,0 +1,31 @@
+// === SHIPPING ARRAY PRACTICE ===
+
+let shipments = [
+  { id: "S001", origin: "China", dest: "USA", status: "In Transit", days: 12 },
+  { id: "S002", origin: "India", dest: "UK", status: "Delivered", days: 8 },
+  { id: "S003", origin: "Brazil", dest: "Germany", status: "Delayed", days: 25 },
+  { id: "S004", origin: "Singapore", dest: "Australia", status: "In Transit", days: 5 }
+];
+
+// Exercise 1: How many shipments are there?
+console.log("Total shipments:", shipments.length);
+
+// Exercise 2: Print all shipment IDs
+console.log("\nAll shipment IDs:");
+for (let i = 0; i < shipments.length; i++) {
+  console.log(shipments[i].id);
+}
+
+// Exercise 3: Show only Delayed shipments
+console.log("\nDelayed shipments:");
+for (let i = 0; i < shipments.length; i++) {
+  if (shipments[i].status === "Delayed") {
+    console.log(shipments[i].id + " from " + shipments[i].origin);
+  }
+}
+
+// Exercise 4: Add a new shipment
+let newShipment = { id: "S005", origin: "Japan", dest: "France", status: "In Transit", days: 15 };
+shipments.push(newShipment);
+
+console.log("\nAfter adding new shipment, total is now:", shipments.length);
