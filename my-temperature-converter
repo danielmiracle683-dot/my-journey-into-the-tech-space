@@ -1,0 +1,11 @@
+let t1 = 33;
+let t2 = 23;
+let t3 = 43;
+console.log("T1:",t1 ,"T2:",t2 ,"T3:",t3);
+function celsiusToFahrenheit(celsius) {
+ return (celsius * 9/5) + 32
+};
+let f1 = celsiusToFahrenheit(t1);
+let f2 = celsiusToFahrenheit(t2);
+let f3 = celsiusToFahrenheit(t3);
+console.log("F1:",f1 , "F2:",f2 , "F3:",f3);
